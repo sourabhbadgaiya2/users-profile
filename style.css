@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    height: 100%;
+    width: 30%;
+    background-color: #2B2C3B;
+    padding: 10px 0 0 30px;
+
+}
+
+.top {
+    gap: 2vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.txt {
+    margin-top: 8%;
+}
+
+.top img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bottom {
+    border-bottom: 1px solid rgb(78, 76, 76);
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    /* ju
+    stify-content: space-between; */
+}
+
+.bottom h1 {
+    font-size: 25px;
+}
+
+.bio {
+    margin-top: 2vw;
+}
+
+.bio-box {
+    margin-top: 1vw;
+    background-color: white;
+    color: #2B2C3B;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.bio-box h3 {
+    font-size: 25px;
+}
+
+.bio-box p {
+    font-size: 15px;
+    opacity: .9;
+}
+
+.box2 {
+    background-color: #F93964;
+    color: white;
+}
+
+.box3 {
+    background-color: #6676DC;
+    color: white;
+
+}
+
+.box3 p {
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.whom {
+    display: flex;
+    gap: 15vw;
+    /* justify-content: space-between; */
+    margin-top: 2vw;
+    padding: 10px 0;
+    border-top: 1px solid rgb(66, 64, 64);
+    border-bottom: 1px solid rgb(66, 64, 64);
+}
+
+.black {
+    margin-top: 2vw;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+
+}
+
+
+
+.left img {
+    height: 150px;
+}
+
+.omg {
+    display: flex;
+    gap: 2vw;
+}
+
+.box4 {
+    padding: 10px 15px;
+}
+
+.bio-boxw {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 2vw;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #65C7E9;
+}
+
+.photo {
+    display: flex;
+    gap: 3vw;
+    padding: 10px;
+}
+
+.photo h3 {
+    font-size: 25px;
+
+}
